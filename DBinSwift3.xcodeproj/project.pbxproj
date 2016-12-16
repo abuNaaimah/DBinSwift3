@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E708AEE31DF6FA5700A858A6 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E708AEE21DF6FA5700A858A6 /* RegistrationVC.swift */; };
 		E70A310E1DF54DDD00163D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310D1DF54DDD00163D39 /* AppDelegate.swift */; };
-		E70A31101DF54DDD00163D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A310F1DF54DDD00163D39 /* ViewController.swift */; };
 		E70A31131DF54DDD00163D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70A31111DF54DDD00163D39 /* Main.storyboard */; };
 		E70A31151DF54DDD00163D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70A31141DF54DDD00163D39 /* Assets.xcassets */; };
 		E70A31181DF54DDD00163D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70A31161DF54DDD00163D39 /* LaunchScreen.storyboard */; };
+		E70A31281DF567AE00163D39 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A31271DF567AE00163D39 /* LoginVC.swift */; };
+		E70A312A1DF5817C00163D39 /* UserHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A31291DF5817C00163D39 /* UserHomeVC.swift */; };
+		E70A312C1DF581A100163D39 /* UserProfileDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A312B1DF581A100163D39 /* UserProfileDetailsVC.swift */; };
+		E76488661DF7E06C0070CBCC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E76488651DF7E06C0070CBCC /* libsqlite3.tbd */; };
+		E7704BF81DF5940400322DE2 /* LoginAuthDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E7704BF71DF5940400322DE2 /* LoginAuthDB.sqlite */; };
+		E7704BFB1DF5979C00322DE2 /* DMLServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7704BFA1DF5979C00322DE2 /* DMLServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E708AEE21DF6FA5700A858A6 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationVC.swift; path = "../../../../../../Users/tops/Desktop/Find Here/RegistrationVC.swift"; sourceTree = "<group>"; };
 		E70A310A1DF54DDD00163D39 /* DBinSwift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBinSwift3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70A310D1DF54DDD00163D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E70A310F1DF54DDD00163D39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E70A31121DF54DDD00163D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E70A31141DF54DDD00163D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E70A31171DF54DDD00163D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E70A31191DF54DDD00163D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70A31271DF567AE00163D39 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E70A31291DF5817C00163D39 /* UserHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHomeVC.swift; sourceTree = "<group>"; };
+		E70A312B1DF581A100163D39 /* UserProfileDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileDetailsVC.swift; sourceTree = "<group>"; };
+		E76488651DF7E06C0070CBCC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E7704BF71DF5940400322DE2 /* LoginAuthDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = LoginAuthDB.sqlite; path = ../../LoginAuthDB.sqlite; sourceTree = "<group>"; };
+		E7704BF91DF5952C00322DE2 /* DBinSwift3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBinSwift3-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7704BFA1DF5979C00322DE2 /* DMLServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMLServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76488661DF7E06C0070CBCC /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +54,7 @@
 			children = (
 				E70A310C1DF54DDD00163D39 /* DBinSwift3 */,
 				E70A310B1DF54DDD00163D39 /* Products */,
+				E76488641DF7E06C0070CBCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,28 @@
 		E70A310C1DF54DDD00163D39 /* DBinSwift3 */ = {
 			isa = PBXGroup;
 			children = (
+				E7704BF71DF5940400322DE2 /* LoginAuthDB.sqlite */,
 				E70A310D1DF54DDD00163D39 /* AppDelegate.swift */,
-				E70A310F1DF54DDD00163D39 /* ViewController.swift */,
+				E7704BFA1DF5979C00322DE2 /* DMLServices.swift */,
+				E70A31271DF567AE00163D39 /* LoginVC.swift */,
+				E708AEE21DF6FA5700A858A6 /* RegistrationVC.swift */,
+				E70A31291DF5817C00163D39 /* UserHomeVC.swift */,
+				E70A312B1DF581A100163D39 /* UserProfileDetailsVC.swift */,
 				E70A31111DF54DDD00163D39 /* Main.storyboard */,
+				E7704BF91DF5952C00322DE2 /* DBinSwift3-Bridging-Header.h */,
 				E70A31141DF54DDD00163D39 /* Assets.xcassets */,
 				E70A31161DF54DDD00163D39 /* LaunchScreen.storyboard */,
 				E70A31191DF54DDD00163D39 /* Info.plist */,
 			);
 			path = DBinSwift3;
+			sourceTree = "<group>";
+		};
+		E76488641DF7E06C0070CBCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E76488651DF7E06C0070CBCC /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +156,7 @@
 				E70A31181DF54DDD00163D39 /* LaunchScreen.storyboard in Resources */,
 				E70A31151DF54DDD00163D39 /* Assets.xcassets in Resources */,
 				E70A31131DF54DDD00163D39 /* Main.storyboard in Resources */,
+				E7704BF81DF5940400322DE2 /* LoginAuthDB.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70A31101DF54DDD00163D39 /* ViewController.swift in Sources */,
+				E70A312A1DF5817C00163D39 /* UserHomeVC.swift in Sources */,
 				E70A310E1DF54DDD00163D39 /* AppDelegate.swift in Sources */,
+				E70A312C1DF581A100163D39 /* UserProfileDetailsVC.swift in Sources */,
+				E70A31281DF567AE00163D39 /* LoginVC.swift in Sources */,
+				E708AEE31DF6FA5700A858A6 /* RegistrationVC.swift in Sources */,
+				E7704BFB1DF5979C00322DE2 /* DMLServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +295,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M73M6XD9UA;
 				INFOPLIST_FILE = DBinSwift3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nadim.DBinSwift3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/tops/Desktop/DBinSwift3/DBinSwift3/DBinSwift3-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,9 +310,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M73M6XD9UA;
 				INFOPLIST_FILE = DBinSwift3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nadim.DBinSwift3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/tops/Desktop/DBinSwift3/DBinSwift3/DBinSwift3-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +338,7 @@
 				E70A311E1DF54DDD00163D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

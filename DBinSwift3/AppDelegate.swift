@@ -9,14 +9,36 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate
+{
 
     var window: UIWindow?
+    var strpath=""
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setDBPath()
         return true
+    }
+    
+    func setDBPath()
+    {
+        var path=NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+        let str=path[0]
+        strpath=str.appending("/LoginAuthDB.sqlite")
+        print(strpath)
+        
+        if !FileManager.default.fileExists(atPath: strpath)
+        {
+            let str=Bundle.main.path(forResource: "LoginAuthDB", ofType: "sqlite")
+            do
+            {
+                try FileManager.default.copyItem(atPath: str!, toPath: strpath)
+            }
+            catch{}
+            }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
